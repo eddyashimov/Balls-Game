@@ -9,25 +9,27 @@
 /* Begin PBXBuildFile section */
 		FD1548322454AFFD006EB08E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1548312454AFFD006EB08E /* AppDelegate.swift */; };
 		FD1548342454AFFD006EB08E /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FD1548332454AFFD006EB08E /* GameScene.sks */; };
-		FD1548362454AFFD006EB08E /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = FD1548352454AFFD006EB08E /* Actions.sks */; };
 		FD1548382454AFFD006EB08E /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1548372454AFFD006EB08E /* GameScene.swift */; };
 		FD15483A2454AFFD006EB08E /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1548392454AFFD006EB08E /* GameViewController.swift */; };
 		FD15483D2454AFFD006EB08E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD15483B2454AFFD006EB08E /* Main.storyboard */; };
 		FD15483F2454AFFE006EB08E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD15483E2454AFFE006EB08E /* Assets.xcassets */; };
 		FD1548422454AFFE006EB08E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD1548402454AFFE006EB08E /* LaunchScreen.storyboard */; };
+		FDACC37C245503A90069278F /* Miss.sks in Resources */ = {isa = PBXBuildFile; fileRef = FDACC37B245503A90069278F /* Miss.sks */; };
+		FDACC380245506A30069278F /* Hit.sks in Resources */ = {isa = PBXBuildFile; fileRef = FDACC37F245506A30069278F /* Hit.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FD15482E2454AFFD006EB08E /* Project 11 (Sprite Kit).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project 11 (Sprite Kit).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD1548312454AFFD006EB08E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD1548332454AFFD006EB08E /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		FD1548352454AFFD006EB08E /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		FD1548372454AFFD006EB08E /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		FD1548392454AFFD006EB08E /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		FD15483C2454AFFD006EB08E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FD15483E2454AFFE006EB08E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD1548412454AFFE006EB08E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD1548432454AFFE006EB08E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDACC37B245503A90069278F /* Miss.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Miss.sks; sourceTree = "<group>"; };
+		FDACC37F245506A30069278F /* Hit.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = Hit.sks; path = "../../../../Downloads/HackingWithSwift-master/Classic/project11-files/Content/Hit.sks"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,13 +64,14 @@
 			children = (
 				FD1548312454AFFD006EB08E /* AppDelegate.swift */,
 				FD1548332454AFFD006EB08E /* GameScene.sks */,
-				FD1548352454AFFD006EB08E /* Actions.sks */,
 				FD1548372454AFFD006EB08E /* GameScene.swift */,
 				FD1548392454AFFD006EB08E /* GameViewController.swift */,
 				FD15483B2454AFFD006EB08E /* Main.storyboard */,
 				FD15483E2454AFFE006EB08E /* Assets.xcassets */,
 				FD1548402454AFFE006EB08E /* LaunchScreen.storyboard */,
 				FD1548432454AFFE006EB08E /* Info.plist */,
+				FDACC37F245506A30069278F /* Hit.sks */,
+				FDACC37B245503A90069278F /* Miss.sks */,
 			);
 			path = "Project 11 (Sprite Kit)";
 			sourceTree = "<group>";
@@ -133,9 +136,10 @@
 			files = (
 				FD15483D2454AFFD006EB08E /* Main.storyboard in Resources */,
 				FD1548342454AFFD006EB08E /* GameScene.sks in Resources */,
+				FDACC37C245503A90069278F /* Miss.sks in Resources */,
+				FDACC380245506A30069278F /* Hit.sks in Resources */,
 				FD15483F2454AFFE006EB08E /* Assets.xcassets in Resources */,
 				FD1548422454AFFE006EB08E /* LaunchScreen.storyboard in Resources */,
-				FD1548362454AFFD006EB08E /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,7 +308,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "eddyash.Project-11--Sprite-Kit-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -322,7 +326,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "eddyash.Project-11--Sprite-Kit-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
